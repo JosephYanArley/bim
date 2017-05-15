@@ -1,0 +1,98 @@
+input[type="text"]:focus { outline: none; }                 /*дружелюбные инпуты*/
+input[type="text"] {padding-left:30px;}
+button:focus {
+    outline: none;
+}
+
+/*подключение шрифтов*/
+
+/*FontAwesome*/
+@import url("/font-awesome.css");
+
+/*PD DinDisplay Pro Black*/
+@font-face {
+    font-family: PF-DinDisplay-Pro;
+    src: url(/fonts/PF-DinDisplay-Pro.ttf);
+}
+
+/*Circe*/
+@font-face {
+    font-family: Circe-Regular;
+    src: url(/fonts/Circe-Regular.otf);
+}
+
+@font-face {
+    font-family: Circe-ExtraBold;
+    src: url(/fonts/Circe-ExtraBold.otf);
+}
+
+@font-face {
+    font-family: Circe-Bold;
+    src: url(/fonts/Circe-Bold.otf);
+}
+
+@font-face {
+    font-family: Circe-Light;
+    src: url(/fonts/Circe-Light.otf);
+}
+
+/*OpenSans - Open Sans, sans-serif*/
+
+
+html, body{
+    margin:0;
+    padding:0;
+}
+
+p{
+    font-family: PF-DinDisplay-Pro;
+
+}
+
+/*общий стиль секции*/
+.section{
+
+}
+/*стили секции с градиентом*/
+.gradient{
+
+    background: -moz-linear-gradient(45deg,  #6cddd5 0%, #965dff 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(45deg,  #6cddd5 0%,#965dff 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(45deg,  #6cddd5 0%,#965dff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+}
+/*контейнер*/
+.gradient-article{
+
+}
+
+/*заголовок*/
+.gradient-article-title{
+
+}
+/*текст*/
+.gradient-article-text{
+
+}
+/*стили для секции с белым фоном*/
+.blank{
+
+}
+
+
+/*стили навигации*/
+.navigation{
+
+}
+/*текст*/
+.navigation-info{
+
+}
+/*ссылки*/
+.navigation-link{
+
+}
+/*кнопка*/
+.navigation-button{
+
+}
