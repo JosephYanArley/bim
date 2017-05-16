@@ -21,21 +21,6 @@ button:focus {
     src: url(/fonts/Circe-Regular.otf);
 }
 
-@font-face {
-    font-family: Circe-ExtraBold;
-    src: url(/fonts/Circe-ExtraBold.otf);
-}
-
-@font-face {
-    font-family: Circe-Bold;
-    src: url(/fonts/Circe-Bold.otf);
-}
-
-@font-face {
-    font-family: Circe-Light;
-    src: url(/fonts/Circe-Light.otf);
-}
-
 /*OpenSans - Open Sans, sans-serif*/
 
 
@@ -62,21 +47,88 @@ p{
 section{
     min-width:1600px;
     width:100%;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    /*height:890px;*/
 }
 /*стили секции с градиентом*/
 .gradient{
     background: -moz-linear-gradient(45deg,  #6cddd5 0%, #965dff 100%); /* FF3.6-15 */
     background: -webkit-linear-gradient(45deg,  #6cddd5 0%,#965dff 100%); /* Chrome10-25,Safari5.1-6 */
     background: linear-gradient(45deg,  #6cddd5 0%,#965dff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    -webkit-box-shadow: inset 0px 3px 4px 0px rgba(255, 255, 255, 0.3);
+    -moz-box-shadow:    inset 0px 3px 4px 0px rgba(255, 255, 255, 0.3);
+    box-shadow:         inset 0px 3px 4px 0px rgba(255, 255, 255, 0.3);
 }
 /*контейнер*/
-.gradient-article{
-
+.first-slide-article{
+    width:1220px;
+    margin:0 auto;
 }
 
 /*заголовок*/
-.gradient-article-title{
+.first-slide-title{
+    color: white;
+    font-size: 2.5rem;
+    font-family: Circe-Regular;
+    font-weight: 400;
+    text-align: center;
+    margin: 230px auto 0;
+}
 
+.first-slide-subtitle{
+    color: white;
+    font-size: 1.875rem;
+    font-family: Circe-Regular;
+    font-weight: 400;
+    text-align: center;
+    margin: 50px auto 0;
+    line-height: 30px;
+}
+
+.first-slide-buttons-layer{
+    margin: 0 auto;
+    margin-top: 88px;
+    height: 44px;
+    width: 480px;
+
+}
+
+.first-slide-button {
+    width:218px;
+    height: 44px;
+    border:none;
+    border-radius:25px;
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-family: "Open Sans";
+    background: rgb(75, 156, 254);
+    background: -moz-linear-gradient(180deg, rgb(75, 156, 254) 50%, rgb(50, 131, 249) 100%);
+    background: -webkit-linear-gradient(180deg, rgb(75, 156, 254) 50%, rgb(50, 131, 249) 100%);
+    background: -o-linear-gradient(180deg, rgb(75, 156, 254) 50%, rgb(50, 131, 249) 100%);
+    background: -ms-linear-gradient(180deg, rgb(75, 156, 254) 50%, rgb(50, 131, 249) 100%);
+    background: linear-gradient(90deg, rgb(75, 156, 254) 50%, rgb(50, 131, 249) 100%);
+}
+
+.first-slide-partners{
+    margin:0 auto;
+    margin-top: 60px;
+    width:830px;
+}
+
+.first-slide-partners td{
+    height:60px;
+    width:25%;
+    color:white;
+    font-family: "Open Sans";
+    font-size: 0.8125rem;
+    text-align: center;
+    padding:0 20px;
+}
+
+.first-slide-partners td img{
+    width:70px;
 }
 /*текст*/
 .gradient-article-text{
@@ -91,10 +143,11 @@ section{
 /*стили навигации*/
 /*контейнер для полосы*/
 .navigation{
-    height: 102px;
-    box-shadow:0px 1px 0px rgba(161, 140, 247, 0.2);
-    -webkit-box-shadow:0px 1px 0px rgba(161, 140, 247, 0.2);
+
+    box-shadow:0px 1px 0px rgba(255, 255, 255, 0.2);
+    -webkit-box-shadow:0px 1px 0px rgba(255, 255, 255, 0.2);
 }
+
 .navigation-bar{
     width:1600px;
     margin:0 auto;
@@ -140,3 +193,4 @@ section{
     font-size: 0.75rem;
     font-family: "Open Sans";
 }
+
