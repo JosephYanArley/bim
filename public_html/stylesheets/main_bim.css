@@ -39,10 +39,6 @@ body{
 
 }
 
-p{
-    font-family: PF-DinDisplay-Pro;
-}
-
 /*общий стиль секции*/
 section{
     min-width:1600px;
@@ -50,7 +46,6 @@ section{
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    /*height:890px;*/
 }
 /*стили секции с градиентом*/
 .gradient{
@@ -61,6 +56,11 @@ section{
     -moz-box-shadow:    inset 0px 3px 4px 0px rgba(255, 255, 255, 0.3);
     box-shadow:         inset 0px 3px 4px 0px rgba(255, 255, 255, 0.3);
 }
+
+.blank{
+    background-color: white;
+}
+
 /*контейнер*/
 .first-slide-article{
     width:1220px;
@@ -74,7 +74,7 @@ section{
     font-family: Circe-Regular;
     font-weight: 400;
     text-align: center;
-    margin: 230px auto 0;
+    margin: 220px auto 0;
 }
 
 .first-slide-subtitle{
@@ -83,16 +83,15 @@ section{
     font-family: Circe-Regular;
     font-weight: 400;
     text-align: center;
-    margin: 50px auto 0;
+    margin: 40px auto 0;
     line-height: 30px;
 }
 
 .first-slide-buttons-layer{
     margin: 0 auto;
-    margin-top: 88px;
+    margin-top: 90px;
     height: 44px;
-    width: 480px;
-
+    width: 490px;
 }
 
 .first-slide-button {
@@ -112,8 +111,7 @@ section{
 }
 
 .first-slide-partners{
-    margin:0 auto;
-    margin-top: 60px;
+    margin:60px auto 80px;
     width:830px;
 }
 
@@ -130,15 +128,26 @@ section{
 .first-slide-partners td img{
     width:70px;
 }
-/*текст*/
-.gradient-article-text{
 
+.second-slide-title{
+    margin: 295px auto 0;
+    color:#3a4d60;
+    font-size: 3rem;
+    font-family: Circe-Regular;
+    font-weight: 400;
+    text-align: center;
 }
-/*стили для секции с белым фоном*/
-.blank{
 
+.second-slide-text{
+    display: block;
+    margin:40px auto 285px;
+    width:1050px;
+    font-size: 1.5rem;
+    font-family: "Open Sans";
+    font-weight: 400;
+    text-align: center;
+    color:#3a4d60;
 }
-
 
 /*стили навигации*/
 /*контейнер для полосы*/
@@ -164,7 +173,7 @@ section{
     color:white;
     width:300px;
     line-height: 1;
-    margin-right: 150px;
+    margin-right: 140px;
 
 }
 /*ссылки*/
