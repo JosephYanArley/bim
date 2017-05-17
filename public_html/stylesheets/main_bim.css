@@ -105,12 +105,13 @@ section{
 }
 
 .first-slide-partners{
-    margin:60px auto 80px;
+    margin:60px auto;
     max-width:900px;
     display:flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    padding-bottom: 5%;
 }
 
 .first-slide-partners span{
@@ -134,8 +135,7 @@ section{
 }
 
 .second-slide-title{
-    margin:auto 0;
-    padding-top: 20%;
+    margin-top: 15%;
     color:#3a4d60;
     font-size: 3rem;
     font-family: Circe-Regular;
@@ -145,7 +145,7 @@ section{
 
 .second-slide-text{
     display: block;
-    margin:40px auto 285px;
+    margin:40px auto 15%;
     max-width:1050px;
     font-size: 1.5rem;
     font-family: "Open Sans";
@@ -232,13 +232,59 @@ section{
 }
 .third-slide-post-element span:last-child {
     font-size: 0.9375rem;
-    font-family: "Open Sans";
+    font-family: "Open Sans Light";
     font-weight: normal;
     line-height: 26px;
     color:white;
     text-transform: uppercase;
 }
 
+.fourth-slide-title{
+    margin-top: 7%;
+    color:#3a4d60;
+    font-size: 3rem;
+    font-family: Circe-Regular;
+    font-weight: 400;
+    text-align: center;
+}
+
+.fourth-slide-scheme{
+    width: 80%;
+    max-width: 1300px;
+    margin:7% auto 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.fourth-slide-scheme-element{
+    width:20%;
+    min-width: 150px;
+}
+.fourth-slide-scheme-element img{
+    display: block;
+    margin: 0 auto;
+}
+
+.fourth-slide-scheme-element span{
+    display: block;
+    margin-top:70px;
+    font-family: "Open Sans Light";
+    font-size:0.875rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.fourth-slide-scheme-arrow{
+    width: 50px;
+    padding-top:10px;
+    height:100%;
+}
+.fourth-slide-scheme-arrow img{
+    width: 50px;
+    height:50px;
+}
 /*стили навигации*/
 /*контейнер для полосы*/
 .navigation{
@@ -332,5 +378,18 @@ section{
 @media only screen and (max-width: 1080px){
     .third-slide-date-desc{
         font-size: 0.75rem;
+    }
+}
+
+@media only screen and (max-width: 570px){
+    .fourth-slide-scheme{
+        flex-direction: column;
+        align-items: center;
+    }
+    .fourth-slide-scheme-arrow{
+        display: none;
+    }
+    .fourth-slide-scheme-element span{
+        margin:10px auto 30px;
     }
 }
