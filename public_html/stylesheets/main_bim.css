@@ -30,18 +30,9 @@ html, body{
     font-size: 16px;
 }
 
-body{
-    display:flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-
-}
-
 /*общий стиль секции*/
 section{
     width:100%;
-
 }
 /*стили секции с градиентом*/
 .gradient{
@@ -128,7 +119,7 @@ section{
 
 }
 
-.first-slide-partners>div{
+.first-slide-partners div{
     height:100px;
     width: 200px;
     color:white;
@@ -143,7 +134,8 @@ section{
 }
 
 .second-slide-title{
-    margin: 295px auto 0;
+    margin:auto 0;
+    padding-top: 20%;
     color:#3a4d60;
     font-size: 3rem;
     font-family: Circe-Regular;
@@ -154,12 +146,97 @@ section{
 .second-slide-text{
     display: block;
     margin:40px auto 285px;
-    width:1050px;
+    max-width:1050px;
     font-size: 1.5rem;
     font-family: "Open Sans";
     font-weight: 400;
     text-align: center;
     color:#3a4d60;
+}
+
+.third-slide-article{
+    width:85%;
+    max-width:1355px;
+    margin:0 auto;
+}
+
+.third-slide-title{
+    margin:auto 0;
+    padding-top: 10%;
+    color:white;
+    font-size: 3rem;
+    font-family: Circe-Regular;
+    font-weight: 400;
+    text-align: center;
+}
+.third-slide-graph{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+.third-slide-date {
+    margin-top: 5%;
+    width: 25%;
+    height:150px;
+}
+.third-slide-date span{
+     color:white;
+     font-size: 1.125rem;
+     font-family: "Open Sans";
+     font-weight: bold;
+}
+.third-slide-scale{
+    content: "";
+    height: 20px;
+    margin:20px 0;
+    background-image: url("/images/graph.png");
+    background-repeat: repeat-x;
+    background-position: center;
+    border-left:2px solid white;
+}
+.last-scale{
+    border-right:2px solid white;
+}
+.third-slide-date-desc{
+    color:white;
+    text-transform:uppercase;
+    font-size: 1rem;
+    font-family: "Open Sans";
+    font-weight: 600;
+    line-height: 1.8;
+}
+
+.third-slide-post{
+    margin-top: 7%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.third-slide-post-element{
+    padding-left:20px;
+    border-left:2px solid white;
+    margin-bottom: 7%;
+}
+.third-slide-post-element span:first-child {
+    display: block;
+    font-size: 0.9375rem;
+    font-family: "Open Sans";
+    font-weight: bold;
+    line-height: 26px;
+    color:white;
+    text-transform: uppercase;
+}
+.third-slide-post-element span:last-child {
+    font-size: 0.9375rem;
+    font-family: "Open Sans";
+    font-weight: normal;
+    line-height: 26px;
+    color:white;
+    text-transform: uppercase;
 }
 
 /*стили навигации*/
@@ -249,5 +326,11 @@ section{
     }
     .first-slide-button{
         margin:0 auto 20px;
+    }
+}
+
+@media only screen and (max-width: 1080px){
+    .third-slide-date-desc{
+        font-size: 0.75rem;
     }
 }
