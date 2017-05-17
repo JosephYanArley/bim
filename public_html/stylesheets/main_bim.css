@@ -28,7 +28,6 @@ html, body{
     margin:0;
     padding:0;
     font-size: 16px;
-    min-width: 1600px;
 }
 
 body{
@@ -41,11 +40,8 @@ body{
 
 /*общий стиль секции*/
 section{
-    min-width:1600px;
     width:100%;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
+
 }
 /*стили секции с градиентом*/
 .gradient{
@@ -63,7 +59,8 @@ section{
 
 /*контейнер*/
 .first-slide-article{
-    width:1220px;
+    width:75%;
+    max-width:1220px;
     margin:0 auto;
 }
 
@@ -74,7 +71,8 @@ section{
     font-family: Circe-Regular;
     font-weight: 400;
     text-align: center;
-    margin: 220px auto 0;
+    margin: 0 auto;
+    padding-top: 20%;
 }
 
 .first-slide-subtitle{
@@ -92,6 +90,11 @@ section{
     margin-top: 90px;
     height: 44px;
     width: 490px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .first-slide-button {
@@ -112,20 +115,30 @@ section{
 
 .first-slide-partners{
     margin:60px auto 80px;
-    width:830px;
+    max-width:900px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
-.first-slide-partners td{
-    height:60px;
-    width:25%;
+.first-slide-partners span{
+    display:block;
+    margin: 0 auto 30px;
+
+}
+
+.first-slide-partners>div{
+    height:100px;
+    width: 200px;
     color:white;
     font-family: "Open Sans";
     font-size: 0.8125rem;
     text-align: center;
-    padding:0 20px;
+
 }
 
-.first-slide-partners td img{
+.first-slide-partners img{
     width:70px;
 }
 
@@ -158,7 +171,8 @@ section{
 }
 
 .navigation-bar{
-    width:1600px;
+    width:85%;
+    max-width:1600px;
     margin:0 auto;
     display: flex;
     flex-direction: row;
@@ -171,24 +185,28 @@ section{
     font-family: Circe-Regular;
     font-size: 1.125rem;
     color:white;
-    width:300px;
+    width:280px;
     line-height: 1;
-    margin-right: 140px;
+    margin-right: 120px;
 
 }
 /*ссылки*/
 .navigation-bar-links{
     padding:0;
     margin:0;
+    max-width:700px;
 }
 .navigation-bar-links>li{
     display: inline-block;
     font-family: "Open Sans";
     font-size: 0.8125rem;
     color:white;
-    margin-right: 45px;
+    margin-right: 35px;
     height:100px;
     line-height: 100px;
+}
+.navigation-bar-links>li:last-child{
+    margin-right: 0px;
 }
 /*кнопка*/
 .navigation-bar-button{
@@ -201,5 +219,35 @@ section{
     border-radius: 15px;
     font-size: 0.75rem;
     font-family: "Open Sans";
+    margin-left:50px;
 }
 
+@media only screen  and (max-width: 1600px) {
+    .navigation-bar-links{
+        display: none;
+    }
+    .navigation-bar{
+        margin:0;
+        width:100%;
+        flex-direction: column;
+    }
+    .navigation-bar-logo{
+        width:100%;
+        margin:10px auto 10px;
+        text-align: center;
+    }
+    .navigation-bar-button{
+        margin:10px auto 10px;
+    }
+
+}
+
+@media only screen  and (max-width: 660px) {
+    .first-slide-buttons-layer{
+        width:auto;
+        height:auto;
+    }
+    .first-slide-button{
+        margin:0 auto 20px;
+    }
+}
