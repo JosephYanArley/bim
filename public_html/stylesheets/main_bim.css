@@ -232,8 +232,8 @@ section{
 }
 .third-slide-post-element span:last-child {
     font-size: 0.9375rem;
-    font-family: "Open Sans Light";
-    font-weight: normal;
+    font-family: "Open Sans";
+    font-weight: 300;
     line-height: 26px;
     color:white;
     text-transform: uppercase;
@@ -270,7 +270,8 @@ section{
 .fourth-slide-scheme-element span{
     display: block;
     margin-top:70px;
-    font-family: "Open Sans Light";
+    font-family: "Open Sans";
+    font-weight: 300;
     font-size:0.875rem;
     text-transform: uppercase;
     text-align: center;
