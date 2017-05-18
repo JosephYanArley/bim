@@ -655,6 +655,71 @@ section{
 .partners>div:nth-child(2)>img:last-child{
     margin-right: 0;
 }
+
+.contacts{
+    width:100%;
+
+    background-image: url("/images/contact.jpg");
+    background-size: cover;
+    background-position: center;
+    padding-top: 410px;
+}
+.contacts-container{
+    width: 1220px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 110px;
+}
+.contacts-social{
+    width: 580px;
+}
+.contacts span{
+    display: block;
+    font-family: "Open Sans";
+    font-size: 2.5rem;
+    color: white;
+    margin-bottom: 30px;
+}
+.contacts-mail{
+    width:430px;
+}
+.contacts-button{
+    color: white;
+    font-family: "Open Sans Semibold";
+    font-size: 0.8125rem;
+    border:2px solid white;
+    border-radius: 20px;
+    background: none;
+    height: 35px;
+    width: 135px;
+    margin-right: 45px;
+}
+footer{
+    height:45px;
+    color: white;
+}
+.copyrights{
+    height: 45px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 600px;
+}
+.copy{
+    color: #3a4d60;
+    font-family: "Open Sans";
+    font-size: 1.125rem;
+}
+.reserved{
+    color: #3a4d60;
+    font-family: "Open Sans";
+    font-size: 1.125rem;
+}
 /*@media only screen  and (max-width: 1500px) {*/
     /*.navigation-bar-links{*/
         /*display: none;*/
