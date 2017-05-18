@@ -23,11 +23,16 @@ button:focus {
 
 /*OpenSans - Open Sans, sans-serif*/
 
+html{
+    min-width: 1600px;
+}
+
 
 html, body{
     margin:0;
     padding:0;
     font-size: 16px;
+
 }
 
 /*общий стиль секции*/
@@ -305,27 +310,27 @@ section{
 }
 /*логотип-заголовок*/
 .navigation-bar-logo{
-    margin-left: 170px;
+    margin-left: 4%;
     font-family: Circe-Regular;
     font-size: 1.125rem;
     color:white;
     width:280px;
     line-height: 1;
-    margin-right: 120px;
+    margin-right: 4%;
 
 }
 /*ссылки*/
 .navigation-bar-links{
     padding:0;
     margin:0;
-    max-width:700px;
+    width:700px;
 }
 .navigation-bar-links>li{
     display: inline-block;
     font-family: "Open Sans";
     font-size: 0.8125rem;
     color:white;
-    margin-right: 35px;
+    margin-right: 40px;
     height:100px;
     line-height: 100px;
 }
@@ -343,28 +348,28 @@ section{
     border-radius: 15px;
     font-size: 0.75rem;
     font-family: "Open Sans";
-    margin-left:50px;
+    margin-left:1%;
 }
 
-@media only screen  and (max-width: 1600px) {
-    .navigation-bar-links{
-        display: none;
-    }
-    .navigation-bar{
-        margin:0;
-        width:100%;
-        flex-direction: column;
-    }
-    .navigation-bar-logo{
-        width:100%;
-        margin:10px auto 10px;
-        text-align: center;
-    }
-    .navigation-bar-button{
-        margin:10px auto 10px;
-    }
+/*@media only screen  and (max-width: 1500px) {*/
+    /*.navigation-bar-links{*/
+        /*display: none;*/
+    /*}*/
+    /*.navigation-bar{*/
+        /*margin:0;*/
+        /*width:100%;*/
+        /*flex-direction: column;*/
+    /*}*/
+    /*.navigation-bar-logo{*/
+        /*width:100%;*/
+        /*margin:10px auto 10px;*/
+        /*text-align: center;*/
+    /*}*/
+    /*.navigation-bar-button{*/
+        /*margin:10px auto 10px;*/
+    /*}*/
 
-}
+/*}*/
 
 @media only screen  and (max-width: 660px) {
     .first-slide-buttons-layer{
@@ -374,6 +379,7 @@ section{
     .first-slide-button{
         margin:0 auto 20px;
     }
+
 }
 
 @media only screen and (max-width: 1080px){
@@ -392,5 +398,22 @@ section{
     }
     .fourth-slide-scheme-element span{
         margin:10px auto 30px;
+    }
+}
+
+@media only screen and (maX-width:600px){
+    .first-slide-partners div{
+        height:auto;
+        margin-bottom:20px;
+    }
+    .first-slide-partners span{
+        margin: 0 auto 10px;
+        text-align: left;
+    }
+    .first-slide-partners img {
+        display: block;
+        float: none;
+        margin: 0 auto;
+        margin-bottom: 15px;
     }
 }
