@@ -585,6 +585,76 @@ section{
     font-family: Circe-Light;
     font-size: 0.625rem;
 }
+.eighth-slide-title{
+    margin-top: 7%;
+    color:#3a4d60;
+    font-size: 3rem;
+    font-family: Circe-Regular;
+    font-weight: 400;
+    text-align: center;
+}
+.eighth-slide-partners{
+    padding-bottom: 7%;
+}
+.orgs{
+    margin: 0 auto 90px;
+    width:1200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.orgs-element{
+    width: 320px;
+    height:160px;
+}
+
+.orgs-element>span{
+    display: block;
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 1.125rem;
+    margin-bottom: 55px;
+}
+
+.orgs-element>img:nth-child(2){
+    margin-right:80px;
+}
+
+/*!*.orgs-element>a:nth-child(2)>img{*!   ССЫЛКИ!*/
+    /*margin-right:80px;*/
+/*}*/
+
+.orgs-element:last-child>img{
+    display: block;
+    margin:0 auto 0;
+}
+
+.partners{
+    margin: 0 auto;
+    width:1200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.partners>div:first-child{
+    width: 260px;
+}
+.partners>div>span{
+    display: block;
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 1.125rem;
+    margin-bottom: 55px;
+}
+.partners>div:nth-child(2)>img{
+    margin-right: 30px;
+}
+.partners>div:nth-child(2)>img:last-child{
+    margin-right: 0;
+}
 /*@media only screen  and (max-width: 1500px) {*/
     /*.navigation-bar-links{*/
         /*display: none;*/
