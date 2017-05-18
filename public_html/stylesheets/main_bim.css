@@ -75,7 +75,7 @@ section{
 }
 /*логотип-заголовок*/
 .navigation-bar-logo{
-    margin-left: 3%;
+    margin-left: 10%;
     font-family: Circe-Regular;
     font-size: 1.125rem;
     color:white;
@@ -398,8 +398,6 @@ section{
     font-family: Circe-Light;
     text-transform: uppercase;
     text-align: center;
-
-
 }
 
 
@@ -488,6 +486,104 @@ section{
     font-weight: bold;
     font-size: 1.5rem;
     text-transform: uppercase;
+}
+
+.sixth-slide-title{
+    margin-top: 7%;
+    color:#3a4d60;
+    font-size: 3rem;
+    font-family: Circe-Regular;
+    font-weight: 400;
+    text-align: center;
+}
+.sixth-slide-prize{
+    margin:5% auto 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width:1220px;
+}
+.sixth-slide-prize>div>img{
+    display: block;
+    margin:0 auto;
+}
+
+.sixth-slide-prize>div>span{
+    display: block;
+    margin: 60px auto 80px;
+    color: #3a4d60;
+    font-family: Circe-Light;
+    text-transform: uppercase;
+    font-size: 1rem;
+    text-align: center;
+}
+.sixth-slide-other{
+    margin: 0 auto;
+    width: 1188px;
+    height:30px;
+    background: -moz-linear-gradient(0deg,  #6cddd5 0%, #965dff 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(0deg,  #6cddd5 0%,#965dff 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(0deg,  #6cddd5 0%,#965dff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    text-align: center;
+    line-height: 30px;
+    font-size: 1rem;
+    font-family: Circe-Regular;
+    font-weight: 800;
+    color: white;
+    margin-bottom: 7%;
+}
+
+.seventh-slide-title{
+    margin:0 auto;
+    padding-top:7%;
+    color: white;
+    font-size: 3rem;
+    font-family: Circe-Regular;
+    font-weight: 400;
+    text-align: center;
+}
+
+.seventh-slide-jury{
+    margin:0 auto;
+    padding:3% 0 3%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 1200px;
+}
+
+.seventh-slide-jury>div{
+    width: 300px;
+    height:270px;
+    margin-top:30px;
+}
+
+.seventh-slide-jury>div>img{
+    display: block;
+    margin:0 auto 20px;
+}
+
+.seventh-slide-jury>div>span:nth-child(2){
+    display: block;
+    margin:0 auto;
+    text-align: center;
+    color:white;
+    text-transform: uppercase;
+    font-family: Circe-Regular;
+    font-weight: 800;
+    font-size: 0.875rem;
+}
+.seventh-slide-jury>div>span:last-child{
+    display: block;
+    margin:0 auto;
+    text-align: center;
+    color:white;
+    text-transform: uppercase;
+    font-family: Circe-Light;
+    font-size: 0.625rem;
 }
 /*@media only screen  and (max-width: 1500px) {*/
     /*.navigation-bar-links{*/
