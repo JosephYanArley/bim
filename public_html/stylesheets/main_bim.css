@@ -122,7 +122,11 @@ section{
     margin-left:1%;
     cursor:pointer;
 }
-
+.navigation-bar-button:hover{
+    -webkit-box-shadow: inset -13px -6px 23px 0px rgba(50, 50, 50, 0.34);
+    -moz-box-shadow:    inset -13px -6px 23px 0px rgba(50, 50, 50, 0.34);
+    box-shadow:         inset -13px -6px 23px 0px rgba(50, 50, 50, 0.34);
+}
 /*контейнер*/
 .first-slide-article{
     width:75%;
@@ -762,6 +766,12 @@ footer{
 .copyrights img{
     margin-top:10px;
 }
+.copyrights a{
+    color: #3a4d60;
+    font-family: "Open Sans";
+    font-size: 1.125rem;
+    text-decoration: none;
+}
 .copy{
     color: #3a4d60;
     font-family: "Open Sans";
@@ -771,7 +781,7 @@ footer{
     display: inline-block;
     color: #3a4d60;
     font-family: "Open Sans";
-    font-size: 0.75rem;
+    font-size: 1.125rem;
     text-decoration: none;
     line-height: 2rem;
 }
