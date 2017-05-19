@@ -759,10 +759,21 @@ footer{
     align-items: center;
     width: 1000px;
 }
+.copyrights img{
+    margin-top:10px;
+}
 .copy{
     color: #3a4d60;
     font-family: "Open Sans";
     font-size: 1.125rem;
+}
+.code-copy{
+    display: inline-block;
+    color: #3a4d60;
+    font-family: "Open Sans";
+    font-size: 0.75rem;
+    text-decoration: none;
+    line-height: 2rem;
 }
 .reserved{
     color: #3a4d60;
