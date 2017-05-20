@@ -585,7 +585,8 @@ section{
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    width: 1200px;
+    max-width: 1200px;
+    width:75%;
 }
 
 .seventh-slide-jury>div{
@@ -825,7 +826,16 @@ footer{
     .second-slide-text{
         padding:5%;
     }
+
 }
+
+@media only screen and (max-width:1600px){
+    .seventh-slide-jury{
+        justify-content: center;
+    }
+
+}
+
 @media only screen  and (max-width: 660px) {
     .first-slide-buttons-layer{
     width:auto;
