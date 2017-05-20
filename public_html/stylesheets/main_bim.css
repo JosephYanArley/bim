@@ -412,7 +412,7 @@ section{
 
 .fifth-slide-examples>div{
     width:30%;
-    min-width:300px;
+    min-width:400px;
     height:250px;
 }
 .fifth-slide-examples>div>span{
@@ -508,7 +508,7 @@ section{
 .more{
     display: none;
     position: relative;
-    left:125px;
+    left:35%;
     top:75px;
     color: white;
     font-family: Circe-Regular;
@@ -881,4 +881,8 @@ footer{
     .fourth-slide-scheme-element span{
         margin:10px auto 30px;
     }
+    .fifth-slide-examples>div{
+        min-width:300px;
+    }
+
 }
