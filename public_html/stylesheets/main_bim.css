@@ -769,17 +769,18 @@ section{
 }
 
 footer{
-    height:45px;
+    height:60px;
     color: white;
 }
 .copyrights{
-    height: 45px;
+    height: 60px;
     margin: 0 auto;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    width: 1000px;
+    max-width: 1000px;
+    width:60%;
 }
 .copyrights img{
     margin-top:10px;
@@ -911,6 +912,14 @@ footer{
     }
     .contacts-button{
         margin-bottom:5px;
+    }
+    .copyrights{
+        height: auto;
+        flex-wrap: wrap;
+    }
+    .copyrights>div{
+        width:100%;
+        text-align: center;
     }
 }
 @media only screen and (max-width: 1400px) {
