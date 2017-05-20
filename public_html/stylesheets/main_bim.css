@@ -632,11 +632,14 @@ section{
 }
 .orgs{
     margin: 0 auto 90px;
-    width:1200px;
+    width:80%;
+    max-width:1200px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
 }
 
 .orgs-element{
@@ -660,7 +663,6 @@ section{
 
 .orgs-element>img:nth-child(2){
     margin-right:80px;
-
 }
 
 .orgs-element:last-child>img{
@@ -671,14 +673,17 @@ section{
 
 .partners{
     margin: 0 auto;
-    width:1200px;
+    width:80%;
+    max-width:1200px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
 }
 .partners>div:first-child{
-    width: 260px;
+    max-width: 250px;
 }
 .partners>div>span{
     display: block;
@@ -854,12 +859,66 @@ footer{
 }
 }
 
-@media only screen and (max-width: 1300px){
-    .sixth-slide-prize{
+@media only screen and (max-width: 1300px) {
+    .sixth-slide-prize {
         flex-direction: column;
+    }
+
+    .orgs {
+        flex-direction: column;
+    }
+
+    .orgs-element {
+        height: auto;
+    }
+
+    .orgs-element > span {
+        text-align: left;
+        margin-top: 10%;
+        margin-bottom: 5%;
+    }
+
+    .orgs-element > img {
+        display: block;
+        margin: 0 auto 5%;
 
     }
+
+    .orgs-element > img:nth-child(2) {
+        margin: 0 auto 5%;
+    }
 }
+@media only screen and (max-width: 1400px) {
+    .partners{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .partners>div{
+        max-width:320px;
+        width:80%;
+    }
+    .partners>div:first-child{
+         max-width:320px;
+         width:80%;
+     }
+    .partners>div>img{
+        display: block;
+        margin: 0 auto;
+    }
+    .partners>div:nth-child(2)>img{
+        margin:15px auto;
+    }
+    .partners>div:nth-child(2)>img:last-child{
+        margin:15px auto;
+    }
+
+    .partners>div>span{
+        text-align: left;
+        margin-top:10%;
+        margin-bottom: 5%;
+    }
+}
+
 
 @media only screen and (max-width: 570px){
     .third-slide-graph{
