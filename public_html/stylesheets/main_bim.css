@@ -739,7 +739,7 @@ section{
 }
 .contacts-mail{
     max-width:430px;
-    width:30%;
+    width:40%;
 }
 .contacts-button{
     color: white;
@@ -899,6 +899,7 @@ footer{
         justify-content: center;
         align-content: center;
         align-items: flex-start;
+        padding-bottom: 10%;
     }
     .contacts-mail{
         width:100%;
@@ -907,6 +908,9 @@ footer{
     .contacts-social{
         width: 100%;
         margin-bottom: 10%;
+    }
+    .contacts-button{
+        margin-bottom:5px;
     }
 }
 @media only screen and (max-width: 1400px) {
