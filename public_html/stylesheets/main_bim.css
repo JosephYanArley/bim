@@ -710,21 +710,25 @@ section{
     width:100%;
 
     background-image: url("/images/contact.jpg");
+    background-repeat:  no-repeat;
     background-size: cover;
     background-position: center;
-    padding-top: 410px;
+    padding-top: 30%;
 }
 .contacts-container{
-    width: 1220px;
+    max-width:1200px;
+    width: 80%;
     margin: 0 auto;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     padding-bottom: 110px;
+
 }
 .contacts-social{
-    width: 580px;
+    max-width: 580px;
+    width:50%;
 }
 .contacts span{
     display: block;
@@ -734,7 +738,8 @@ section{
     margin-bottom: 30px;
 }
 .contacts-mail{
-    width:430px;
+    max-width:430px;
+    width:30%;
 }
 .contacts-button{
     color: white;
@@ -863,29 +868,45 @@ footer{
     .sixth-slide-prize {
         flex-direction: column;
     }
-
     .orgs {
         flex-direction: column;
     }
-
     .orgs-element {
         height: auto;
     }
-
     .orgs-element > span {
         text-align: left;
         margin-top: 10%;
         margin-bottom: 5%;
     }
-
     .orgs-element > img {
         display: block;
         margin: 0 auto 5%;
 
     }
-
     .orgs-element > img:nth-child(2) {
         margin: 0 auto 5%;
+    }
+    .contacts{
+        background-image: url("/images/shade.png"), url("/images/contact.jpg");
+        background-repeat: repeat, no-repeat;
+        background-size: 100%, cover;
+        background-position: center, center;
+        padding-top: 10%;
+    }
+    .contacts-container{
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        align-items: flex-start;
+    }
+    .contacts-mail{
+        width:100%;
+
+    }
+    .contacts-social{
+        width: 100%;
+        margin-bottom: 10%;
     }
 }
 @media only screen and (max-width: 1400px) {
