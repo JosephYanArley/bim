@@ -552,8 +552,9 @@ section{
 }
 .sixth-slide-other{
     margin: 0 auto;
-    width: 1188px;
-    height:30px;
+    width:75%;
+    max-width: 1188px;
+    min-height:30px;
     background: -moz-linear-gradient(0deg,  #6cddd5 0%, #965dff 100%); /* FF3.6-15 */
     background: -webkit-linear-gradient(0deg,  #6cddd5 0%,#965dff 100%); /* Chrome10-25,Safari5.1-6 */
     background: linear-gradient(0deg,  #6cddd5 0%,#965dff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
