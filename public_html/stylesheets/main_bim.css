@@ -394,12 +394,14 @@ section{
     font-size:1.5rem;
     font-weight: 400;
     text-align: center;
+    padding: 0 10px;
 }
 
 .fifth-slide-examples{
     margin:7% auto 0;
     padding-bottom:7%;
-    width:1200px;
+    width: 75%;
+    max-width:1200px;
     display:flex;
     flex-direction: row;
     justify-content: center;
@@ -409,7 +411,8 @@ section{
 }
 
 .fifth-slide-examples>div{
-    width:400px;
+    width:30%;
+    min-width:400px;
     height:250px;
 }
 .fifth-slide-examples>div>span{
@@ -427,7 +430,7 @@ section{
 }
 
 .example01{
-    width:auto;
+
     height:185px;
     margin:0 auto;
     background-image: url("/images/example-01.png");
@@ -440,7 +443,7 @@ section{
     background-image: url("/images/overlay-example-01.png");
 }
 .example01:hover>.more{
-    display: block;
+    display: inline-block;
 }
 .example02{
     width:auto;
@@ -455,7 +458,7 @@ section{
     background-image: url("/images/overlay-example-02.png");
 }
 .example02:hover>.more{
-    display: block;
+    display: inline-block;
 }
 .example03{
     width:auto;
@@ -470,7 +473,7 @@ section{
     background-image: url("/images/overlay-example-03.png");
 }
 .example03:hover>.more {
-    display: block;
+    display: inline-block;
 }
 .example04{
     width:auto;
@@ -485,7 +488,7 @@ section{
     background-image: url("/images/overlay-example-04.png");
 }
 .example04:hover>.more {
-    display: block;
+    display: inline-block;
 }
 .example05{
     width:auto;
@@ -500,7 +503,7 @@ section{
     background-image: url("/images/overlay-example-05.png");
 }
 .example05:hover>.more {
-    display: block;
+    display: inline-block;
 }
 .more{
     display: none;
