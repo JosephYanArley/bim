@@ -299,7 +299,7 @@ section{
 }
 
 .third-slide-post{
-    margin-top: 7%;
+    margin: 7% auto 7%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -845,7 +845,9 @@ footer{
     .third-slide-date-desc{
         font-size: 0.6rem;
     }
-
+    .third-slide-post-element{
+        margin-bottom: 20px;
+    }
 }
 
 @media only screen and (maX-width:600px){
