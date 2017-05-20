@@ -295,6 +295,7 @@ section{
     font-family: "Open Sans";
     font-weight: 600;
     line-height: 1.5rem;
+    padding-right:10px;
 }
 
 .third-slide-post{
@@ -833,6 +834,7 @@ footer{
 @media only screen and (max-width: 1080px){
     .third-slide-date-desc{
     font-size: 0.75rem;
+        padding-right: 10px;
 }
 }
 
@@ -843,16 +845,7 @@ footer{
     .third-slide-date-desc{
         font-size: 0.6rem;
     }
-.fourth-slide-scheme{
-    flex-direction: column;
-    align-items: center;
-}
-.fourth-slide-scheme-arrow{
-    display: none;
-}
-.fourth-slide-scheme-element span{
-    margin:10px auto 30px;
-}
+
 }
 
 @media only screen and (maX-width:600px){
@@ -870,4 +863,17 @@ footer{
     margin: 0 auto;
     margin-bottom: 15px;
 }
+}
+
+@media only screen and (max-width:950px){
+    .fourth-slide-scheme{
+        flex-direction: column;
+        align-items: center;
+    }
+    .fourth-slide-scheme-arrow{
+        display: none;
+    }
+    .fourth-slide-scheme-element span{
+        margin:10px auto 30px;
+    }
 }
