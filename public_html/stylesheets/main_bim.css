@@ -294,7 +294,7 @@ section{
     font-size: 1rem;
     font-family: "Open Sans";
     font-weight: 600;
-    line-height: 1.8;
+    line-height: 1.5rem;
 }
 
 .third-slide-post{
@@ -837,6 +837,12 @@ footer{
 }
 
 @media only screen and (max-width: 570px){
+    .third-slide-graph{
+        margin-bottom: 10%;
+    }
+    .third-slide-date-desc{
+        font-size: 0.6rem;
+    }
 .fourth-slide-scheme{
     flex-direction: column;
     align-items: center;
