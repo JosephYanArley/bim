@@ -435,15 +435,16 @@ section{
     margin:0 auto;
     background-image: url("/images/example-01.png");
     background-repeat: no-repeat;
-    background-position: center;
-    background-size: 75%;
-    display: block;
+    background-position: center 0;
+    background-size: 326px 370px;
 }
 .example01:hover{
-    background-image: url("/images/overlay-example-01.png");
+    background-image: url("/images/example-01.png");
+    background-position: center -185px;
 }
 .example01:hover>.more{
-    display: inline-block;
+    display: block;
+    margin: 0 auto;
 }
 .example02{
     width:auto;
@@ -451,14 +452,16 @@ section{
     margin:0 auto;
     background-image: url("/images/example-02.png");
     background-repeat: no-repeat;
-    background-position: center;
-    background-size: 60%;
+    background-position: center 0;
+    background-size: 271px 370px;
 }
 .example02:hover{
-    background-image: url("/images/overlay-example-02.png");
+    background-image: url("/images/example-02.png");
+    background-position: center -185px;
 }
 .example02:hover>.more{
-    display: inline-block;
+    display: block;
+    margin: 0 auto;
 }
 .example03{
     width:auto;
@@ -466,14 +469,16 @@ section{
     margin:0 auto;
     background-image: url("/images/example-03.png");
     background-repeat: no-repeat;
-    background-position: center;
-    background-size: 70%;
+    background-position: center 0;
+    background-size: 291px 370px;
 }
 .example03:hover{
-    background-image: url("/images/overlay-example-03.png");
+    background-image: url("/images/example-03.png");
+    background-position: center -185px;
 }
 .example03:hover>.more {
-    display: inline-block;
+    display: block;
+    margin: 0 auto;
 }
 .example04{
     width:auto;
@@ -481,14 +486,16 @@ section{
     margin:0 auto;
     background-image: url("/images/example-04.png");
     background-repeat: no-repeat;
-    background-position: center;
-    background-size: 75%;
+    background-position: center 0;
+    background-size: 341px 370px;
 }
 .example04:hover{
-    background-image: url("/images/overlay-example-04.png");
+    background-image: url("/images/example-04.png");
+    background-position: center -185px;
 }
 .example04:hover>.more {
-    display: inline-block;
+    display: block;
+    margin: 0 auto;
 }
 .example05{
     width:auto;
@@ -496,19 +503,21 @@ section{
     margin:0 auto;
     background-image: url("/images/example-05.png");
     background-repeat: no-repeat;
-    background-position: center;
-    background-size: 55%;
+    background-position: center 0;
+    background-size: 259px 370px;
 }
 .example05:hover{
-    background-image: url("/images/overlay-example-05.png");
+    background-image: url("/images/example-05.png");
+    background-position: center -185px;
 }
 .example05:hover>.more {
-    display: inline-block;
+    display: block;
+    margin: 0 auto;
 }
 .more{
     display: none;
     position: relative;
-    left:35%;
+    text-align: center;
     top:75px;
     color: white;
     font-family: Circe-Regular;
@@ -516,6 +525,7 @@ section{
     font-size: 1.5rem;
     text-transform: uppercase;
     cursor: pointer;
+
 }
 
 .sixth-slide-title{
