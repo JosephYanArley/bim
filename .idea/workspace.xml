@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9b068a9-5c80-4748-9ca8-b01515dd5680" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/index.html" afterPath="$PROJECT_DIR$/public_html/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/stylesheets/main_bim.css" afterPath="$PROJECT_DIR$/public_html/stylesheets/main_bim.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -62,7 +61,7 @@
                     <element signature="e#10485#10687#0" expanded="false" />
                     <element signature="e#10704#10768#0" expanded="false" />
                     <element signature="e#10792#10822#0" expanded="false" />
-                    <marker date="1495261552697" expanded="true" signature="17572:17573" ph="/*...*/" />
+                    <marker date="1495261751789" expanded="true" signature="17572:17573" ph="/*...*/" />
                   </folding>
                 </state>
               </provider>
@@ -77,8 +76,8 @@
               <file leaf-file-name="main_bim.css" pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/public_html/stylesheets/main_bim.css">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="241">
-                      <caret line="505" column="26" lean-forward="false" selection-start-line="505" selection-start-column="26" selection-end-line="505" selection-end-column="26" />
+                    <state relative-caret-position="173">
+                      <caret line="414" column="17" lean-forward="false" selection-start-line="414" selection-start-column="17" selection-end-line="414" selection-end-column="17" />
                       <folding>
                         <element signature="e#3052#3216#0" expanded="false" />
                         <element signature="e#3239#3411#0" expanded="false" />
@@ -127,7 +126,7 @@
                         <element signature="e#10485#10687#0" expanded="false" />
                         <element signature="e#10704#10768#0" expanded="false" />
                         <element signature="e#10792#10822#0" expanded="false" />
-                        <marker date="1495261552697" expanded="true" signature="17572:17573" ph="/*...*/" />
+                        <marker date="1495261751789" expanded="true" signature="17572:17573" ph="/*...*/" />
                       </folding>
                     </state>
                   </provider>
@@ -317,12 +316,12 @@
       <workItem from="1495045562619" duration="19375000" />
       <workItem from="1495129446295" duration="22363000" />
       <workItem from="1495208616430" duration="8435000" />
-      <workItem from="1495257313420" duration="3727000" />
+      <workItem from="1495257313420" duration="3928000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72651000" />
+    <option name="totallyTimeSpent" value="72852000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -621,8 +620,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public_html/stylesheets/main_bim.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="505" column="26" lean-forward="false" selection-start-line="505" selection-start-column="26" selection-end-line="505" selection-end-column="26" />
+        <state relative-caret-position="173">
+          <caret line="414" column="17" lean-forward="false" selection-start-line="414" selection-start-column="17" selection-end-line="414" selection-end-column="17" />
           <folding>
             <element signature="e#3052#3216#0" expanded="false" />
             <element signature="e#3239#3411#0" expanded="false" />
