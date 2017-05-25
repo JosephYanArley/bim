@@ -1130,6 +1130,12 @@ h1{
     .example05:hover{
         background-position: center -92px;
     }
+    .third-slide-article{
+        max-width: 250px;
+    }
+    .third-slide-post{
+        padding-top: 10%;
+    }
 }
 
 
