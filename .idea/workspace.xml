@@ -28,7 +28,7 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/public_html/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="68">
+                <state relative-caret-position="-1003">
                   <caret line="4" column="41" lean-forward="false" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="53" />
                   <folding>
                     <element signature="n#h2#0;n#article#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -46,8 +46,8 @@
               <file leaf-file-name="main_bim.css" pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/public_html/stylesheets/main_bim.css">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="131">
-                      <caret line="292" column="1" lean-forward="false" selection-start-line="292" selection-start-column="1" selection-end-line="292" selection-end-column="22" />
+                    <state relative-caret-position="233">
+                      <caret line="86" column="19" lean-forward="false" selection-start-line="86" selection-start-column="19" selection-end-line="86" selection-end-column="19" />
                       <folding>
                         <element signature="e#2908#3072#0" expanded="false" />
                         <element signature="e#3095#3267#0" expanded="false" />
@@ -64,8 +64,8 @@
               <file leaf-file-name="main_bim.css" pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/public_html/stylesheets/main_bim.css">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="187">
-                      <caret line="1071" column="0" lean-forward="true" selection-start-line="1071" selection-start-column="0" selection-end-line="1071" selection-end-column="0" />
+                    <state relative-caret-position="1105">
+                      <caret line="1071" column="0" lean-forward="false" selection-start-line="1071" selection-start-column="0" selection-end-line="1071" selection-end-column="0" />
                       <folding>
                         <element signature="e#2908#3072#0" expanded="false" />
                         <element signature="e#3095#3267#0" expanded="false" />
@@ -271,12 +271,12 @@
       <workItem from="1495257313420" duration="14961000" />
       <workItem from="1495284886867" duration="611000" />
       <workItem from="1495308496297" duration="12009000" />
-      <workItem from="1495728804745" duration="10417000" />
+      <workItem from="1495728804745" duration="10902000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="106922000" />
+    <option name="totallyTimeSpent" value="107407000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -579,7 +579,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public_html/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
+        <state relative-caret-position="-1003">
           <caret line="4" column="41" lean-forward="false" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="53" />
           <folding>
             <element signature="n#h2#0;n#article#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -589,8 +589,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public_html/stylesheets/main_bim.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="1071" column="0" lean-forward="true" selection-start-line="1071" selection-start-column="0" selection-end-line="1071" selection-end-column="0" />
+        <state relative-caret-position="233">
+          <caret line="86" column="19" lean-forward="false" selection-start-line="86" selection-start-column="19" selection-end-line="86" selection-end-column="19" />
           <folding>
             <element signature="e#2908#3072#0" expanded="false" />
             <element signature="e#3095#3267#0" expanded="false" />
