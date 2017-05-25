@@ -1069,9 +1069,7 @@ h1{
     .third-slide-date-desc{
         font-size: 0.6rem;
     }
-    .third-slide-post{
-        padding-top:7%;
-    }
+
     .third-slide-post-element{
         margin-bottom: 20px;
     }
@@ -1130,17 +1128,17 @@ h1{
         background-position: center -92px;
     }
     .third-slide-article{
-        width: 100%;
-    }
-    .third-slide-post{
-        padding-top: 10%;
+        width: 97%;
     }
     .third-slide-post-element{
         padding-left: 5px;
     }
     .seventh-slide-jury{
         flex-direction: column;
-        width: 100%;
+        width: 97%;
+    }
+    .third-slide-date{
+        height:190px;
     }
 }
 
