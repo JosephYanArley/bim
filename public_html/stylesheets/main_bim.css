@@ -1131,10 +1131,13 @@ h1{
         background-position: center -92px;
     }
     .third-slide-article{
-        max-width: 250px;
+        max-width: 300px;
     }
     .third-slide-post{
         padding-top: 10%;
+    }
+    .third-slide-post-element{
+        padding-left: 0px;
     }
 }
 
