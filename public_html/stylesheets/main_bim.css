@@ -27,7 +27,7 @@ button:focus {
 /*OpenSans - Open Sans, sans-serif*/
 
 html{
-    min-width: 320px;
+    min-width: 300px;
 }
 
 
@@ -552,7 +552,7 @@ section{
 .sixth-slide-prize>div>img{
     display: block;
     margin:0 auto;
-    max-width: 320px;
+    max-width: 300px;
     width:100%;
 }
 
@@ -657,7 +657,7 @@ section{
 }
 
 .orgs-element{
-    width: 320px;
+    width: 300px;
     height:160px;
 }
 
@@ -831,11 +831,11 @@ footer{
         justify-content: center;
     }
     .partners>div{
-        max-width:320px;
+        max-width:300px;
         width:80%;
     }
     .partners>div:first-child{
-        max-width:320px;
+        max-width:300px;
         width:80%;
     }
     .partners>div>img{
