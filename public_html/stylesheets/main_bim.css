@@ -1062,9 +1062,7 @@ h1{
     .contacts-container>div>span{
         font-size: 1.5rem;
     }
-}
 
-@media only screen and (max-width: 570px){
     .third-slide-graph{
         margin-bottom: 10%;
     }
@@ -1082,6 +1080,7 @@ h1{
     }
     .fifth-slide-examples{
         padding-bottom: 10%;
+        flex-direction: column;
     }
     .fifth-slide-examples>div{
         min-width: 200px;
@@ -1138,6 +1137,9 @@ h1{
     }
     .third-slide-post-element{
         padding-left: 0px;
+    }
+    .seventh-slide-jury{
+        flex-direction: column;
     }
 }
 
