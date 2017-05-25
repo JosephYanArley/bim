@@ -1130,7 +1130,7 @@ h1{
         background-position: center -92px;
     }
     .third-slide-article{
-        max-width: 300px;
+        width: 100%;
     }
     .third-slide-post{
         padding-top: 10%;
@@ -1140,6 +1140,7 @@ h1{
     }
     .seventh-slide-jury{
         flex-direction: column;
+        width: 100%;
     }
 }
 
