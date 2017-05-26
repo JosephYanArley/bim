@@ -1088,8 +1088,8 @@ h1{
     }
     .fifth-slide-examples>div{
         min-width: 200px;
-        height: 100px;
-        padding-top:15%;                /*отступы!*/
+        height: 150px;
+        margin-top:10%;                /*отступы!*/
     }
     .fifth-slide-examples>div>span{
         font-size:1rem;
