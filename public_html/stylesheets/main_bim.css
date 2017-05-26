@@ -67,32 +67,31 @@ section{
     }
 
 .navigation-bar{
-    width:85%;
-    max-width:1200px;
+    padding: 0 25px;
+    max-width:1250px;
     margin:0 auto;
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: center;
     height: 100px;
 }
 /*логотип-заголовок*/
 .navigation-bar-logo{
-    /*margin-left: 9%;*/
+
     font-family: Circe-Regular;
     font-size: 1.125rem;
     color:white;
-    width:300px !important;
+    width:300px;
     line-height: 1rem;
-    margin-right: 1%;
+
 
 }
 /*ссылки*/
 .navigation-bar-links{
     padding:0;
     margin:0;
-    width:680px;
-
+    width:550px;
 }
 .navigation-bar-links>a>li{
     display: inline-block;
@@ -122,7 +121,6 @@ section{
     border-radius: 15px;
     font-size: 0.75rem;
     font-family: "Open Sans";
-    margin-left:1%;
     cursor:pointer;
 }
 .navigation-bar-button:hover{
@@ -131,7 +129,7 @@ section{
 /*контейнер*/
 .first-slide-article{
     width:75%;
-    max-width:1220px;
+    max-width:1250px;
     margin:0 auto;
 }
 
@@ -237,6 +235,7 @@ section{
 .second-slide-text{
     display: block;
     margin:40px auto 15%;
+    width: 85%;
     max-width:1050px;
     font-size: 1.5rem;
     font-family: "Open Sans";
@@ -246,14 +245,14 @@ section{
 }
 
 .third-slide-article{
-    width:85%;
-    max-width:1200px;
+    max-width:1250px;
     margin:0 auto;
+    padding: 0 25px;
 }
 
 .third-slide-title{
     margin: 0 auto;
-    padding-top: 7%;
+    padding-top: 100px;
     color:white;
     font-size: 3rem;
     font-family: Circe-Regular;
@@ -334,7 +333,7 @@ section{
 
 .fourth-slide-title{
     margin:0 auto;
-    padding-top:7%;
+    padding-top: 100px;
     color:#3a4d60;
     font-size: 3rem;
     font-family: Circe-Regular;
@@ -343,8 +342,8 @@ section{
 }
 
 .fourth-slide-scheme{
-    width: 80%;
-    max-width: 1300px;
+    max-width: 1250px;
+    padding: 0 25px;
     margin:7% auto 10%;
     display: flex;
     flex-direction: row;
@@ -383,7 +382,7 @@ section{
 
 .fifth-slide-title{
     margin:0 auto;
-    padding-top:7%;
+    padding-top: 100px;
     color: white;
     font-size: 3rem;
     font-family: Circe-Regular;
@@ -403,9 +402,8 @@ section{
 
 .fifth-slide-examples{
     margin:7% auto 0;
-    padding-bottom:5%;
-    width: 75%;
-    max-width:1200px;
+    padding-bottom: 5%;
+    max-width:1250px;
     display:flex;
     flex-direction: row;
     justify-content: center;
@@ -415,15 +413,15 @@ section{
 }
 
 .fifth-slide-examples>div{
-    width:30%;
-    min-width:300px;
+    width:33%;
+    min-width:400px;
     height:240px;
 }
 .fifth-slide-examples>div>span{
     display: block;
     margin: 10px auto;
     color: white;
-    font-size: 1.4375rem;
+    font-size: 1.3rem;
     font-family: Circe-Light;
     text-transform: uppercase;
     text-align: center;
@@ -532,7 +530,7 @@ section{
 
 .sixth-slide-title{
     margin:0 auto;
-    padding-top: 7%;
+    padding-top: 100px;
     color:#3a4d60;
     font-size: 3rem;
     font-family: Circe-Regular;
@@ -546,8 +544,8 @@ section{
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    width: 75%;
-    max-width:1220px;
+    padding: 0 25px;
+    max-width:1250px;
 }
 .sixth-slide-prize>div>img{
     display: block;
@@ -567,8 +565,7 @@ section{
 }
 .sixth-slide-other{
     margin: 0 auto 5%;
-    width:75%;
-    max-width: 1188px;
+    max-width: 1250px;
     min-height:30px;
     background: -moz-linear-gradient(0deg,  #6cddd5 0%, #965dff 100%); /* FF3.6-15 */
     background: -webkit-linear-gradient(0deg,  #6cddd5 0%,#965dff 100%); /* Chrome10-25,Safari5.1-6 */
@@ -583,7 +580,7 @@ section{
 
 .seventh-slide-title{
     margin:0 auto;
-    padding-top:7%;
+    padding-top: 100px;
     color: white;
     font-size: 3rem;
     font-family: Circe-Regular;
@@ -593,14 +590,13 @@ section{
 
 .seventh-slide-jury{
     margin:0 auto;
-    padding:3% 0 5%;
+    padding:3% 25px 5%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    max-width: 1200px;
-    width:75%;
+    max-width: 1300px;
 }
 
 .seventh-slide-jury>div{
@@ -625,6 +621,7 @@ section{
     font-size: 0.875rem;
 }
 .seventh-slide-jury>div>span:last-child{
+    width: 200px;
     display: block;
     margin:0 auto;
     text-align: center;
@@ -634,7 +631,7 @@ section{
     font-size: 0.625rem;
 }
 .eighth-slide-title{
-    padding-top: 7%;
+    padding-top: 100px;
     color:#3a4d60;
     font-size: 3rem;
     font-family: Circe-Regular;
@@ -646,7 +643,7 @@ section{
 }
 .orgs{
     margin: 0 auto 90px;
-    width:80%;
+    width:75%;
     max-width:1200px;
     display: flex;
     flex-direction: row;
@@ -676,7 +673,7 @@ section{
 }
 
 .orgs-element>img:nth-child(2){
-    margin-right:80px;
+    margin-right:20%;
 }
 
 .orgs-element:last-child>img{
@@ -687,7 +684,7 @@ section{
 
 .partners{
     margin: 0 auto;
-    width:80%;
+    width:75%;
     max-width:1200px;
     display: flex;
     flex-direction: row;
@@ -730,7 +727,7 @@ section{
 }
 .contacts-container{
     max-width:1200px;
-    width: 80%;
+    width: 75%;
     margin: 0 auto;
     display: flex;
     flex-direction: row;
@@ -811,28 +808,17 @@ footer{
 }
 .codecopy a{
 
-    vertical-align: middle;
+    vertical-align: bottom;
     width:100%;
     font-family: "Open Sans";
     font-size: 1.125rem;
     color: #3a4d60;
     text-decoration: none;
-}
 
-@media only screen and (max-width:1600px){
-    .seventh-slide-jury>div{
-        max-width:230px;
-    }
 }
 
 @media only screen and (max-width: 1400px) {
-    .seventh-slide-jury{
-        width:800px;
-        justify-content: center;
-    }
-    .seventh-slide-jury>div{
-        max-width:300px;
-    }
+
     .partners{
         flex-direction: column;
         justify-content: center;
@@ -870,9 +856,7 @@ footer{
 }
 
 @media only screen and (max-width: 1300px) {
-    .sixth-slide-prize {
-        flex-direction: column;
-    }
+
     .orgs {
         flex-direction: column;
         margin-bottom: 0;
@@ -920,38 +904,31 @@ footer{
     }
 }
 
-@media only screen  and (max-width: 1200px) {
+@media only screen  and (max-width: 1250px) {
     html {
         font-size: 14px;
     }
-
-    .navigation-bar-links {
-        display: none;
+    .navigation-bar-logo{
+        width:270px;
     }
-
-    .navigation-bar {
-        margin: 0;
-        width: 100%;
-        flex-direction: column;
-    }
-
-    .navigation-bar-logo {
-        width: 100%;
-        margin: 20px auto 10px;
-        text-align: center;
-    }
-
-    .navigation-bar-button {
-        margin: 0 auto 10px;
-    }
-
     .second-slide-text{
         padding:5%;
     }
-    .fifth-slide-examples{
-        flex-direction: column;
+    .third-slide-article{
+        padding:0 5%;
     }
-
+    .sixth-slide-other{
+        width: auto;
+        margin: 0 25px 5%;
+    }
+    .seventh-slide-jury{
+        width:800px;
+        justify-content: center;
+        padding: 3% 0 5%;
+    }
+    .fifth-slide-examples > div{
+        min-width:300px;
+    }
 }
 
 @media only screen and (max-width: 1080px){
@@ -959,33 +936,76 @@ footer{
         font-size: 0.75rem;
         padding-right: 10px;
     }
+
 }
 
 @media only screen and (max-width:950px){
-    .fourth-slide-scheme{
-        flex-direction: column;
-        align-items: center;
-    }
-    .fourth-slide-scheme-arrow{
+    .navigation-bar-links {
         display: none;
     }
-    .fourth-slide-scheme-element span{
-        margin:10px auto 30px;
+
+    .navigation-bar {
+        padding:0;
+        margin: 0;
+        width: 100%;
+        flex-direction: column;
     }
-    .fifth-slide-examples>div{
-        min-width:300px;
+
+    .navigation-bar-logo {
+        width: 270px;
+        margin: 20px auto 10px;
+        text-align: center;
+    }
+
+    .navigation-bar-button {
+        margin: 0 auto 10px;
+    }
+    .fourth-slide-scheme{
+    flex-direction: column;
+    align-items: center;
+    }
+    .fourth-slide-scheme-arrow{
+    display: none;
+    }
+    .fourth-slide-scheme-element span{
+    margin:10px auto 30px;
+    }
+    .fifth-slide-examples{
+        flex-direction: column;
+    }
+    .sixth-slide-prize {
+        flex-direction: column;
     }
     .codecopy img{
         display: block;
     }
+    .third-slide-title{
+        padding-top: 7%;
+    }
+    .fourth-slide-title{
+        padding-top: 7%;
+    }
+    .fifth-slide-title{
+        padding-top: 7%;
+    }
+    .sixth-slide-title{
+        padding-top: 7%;
+    }
+    .seventh-slide-title{
+        padding-top: 7%;
+    }
+    .eighth-slide-title{
+        padding-top: 7%;
+    }
+}
+@media only screen and (max-width:800px){
     .seventh-slide-jury{
         width:500px;
     }
 }
-
 @media only screen and (max-width: 670px){
     .copyrights{
-        width:80%;
+        width:95%;
     }
     .copy{
         font-size: 0.75rem;
@@ -998,6 +1018,7 @@ footer{
     .codecopy a {
         font-size: 0.75rem;
         display: block;
+        text-align: center;
     }
     .codecopy img {
         height: 10px;
@@ -1018,6 +1039,7 @@ h1{
 }
 
 @media only screen and (maX-width:600px){
+
     .first-slide-title{
         padding-top: 120px;
         font-size: 2rem;
@@ -1042,7 +1064,6 @@ h1{
     }
     .second-slide-title {
         font-size: 2rem;
-
     }
     .second-slide-text{
         font-size: 1rem;
@@ -1069,6 +1090,10 @@ h1{
     .seventh-slide-title{
         font-size: 2rem;
     }
+    .sixth-slide-other{
+        width: auto;
+        margin: 0 5% 5%;
+    }
     .eighth-slide-title{
         font-size: 2rem;
     }
@@ -1078,6 +1103,9 @@ h1{
 
     .third-slide-graph{
         margin-bottom: 10%;
+    }
+    .third-slide-date span{
+        font-size: 0.8rem;
     }
     .third-slide-date-desc{
         font-size: 0.6rem;
@@ -1139,9 +1167,7 @@ h1{
     .example05:hover{
         background-position: center -92px;
     }
-    .third-slide-article{
-        width: 80%;
-    }
+
     .third-slide-post-element{
         padding-left: 5px;
     }
