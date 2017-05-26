@@ -402,8 +402,9 @@ section{
 
 .fifth-slide-examples{
     margin:7% auto 0;
-    padding-bottom: 5%;
+    /*padding-bottom: 5%;*/
     max-width:1250px;
+    padding: 0 25px 5%;
     display:flex;
     flex-direction: row;
     justify-content: center;
@@ -590,13 +591,13 @@ section{
 
 .seventh-slide-jury{
     margin:0 auto;
-    padding:3% 25px 5%;
+    padding:3% 0 5%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    max-width: 1300px;
+    max-width: 1350px;
 }
 
 .seventh-slide-jury>div{
@@ -643,8 +644,8 @@ section{
 }
 .orgs{
     margin: 0 auto 90px;
-    width:75%;
-    max-width:1200px;
+    padding: 0 25px;
+    max-width:1250px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -684,8 +685,8 @@ section{
 
 .partners{
     margin: 0 auto;
-    width:75%;
-    max-width:1200px;
+    padding: 0 25px;
+    max-width:1250px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -716,7 +717,6 @@ section{
 .partners>div:nth-child(2)>img:last-child{
     margin-right: 0;
 }
-
 .contacts{
     width:100%;
     background-image: url("/images/contact.jpg");
@@ -789,8 +789,8 @@ footer{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    max-width: 1000px;
-    width:80%;
+    max-width: 1200px;
+
 }
 .copy{
     color: #3a4d60;
@@ -816,9 +816,62 @@ footer{
     text-decoration: none;
 
 }
+@media only screen and (max-width: 1300px) {
+    .seventh-slide-jury{
+        width:800px;
+        justify-content: center;
+        padding: 3% 0 5%;
+    }
 
-@media only screen and (max-width: 1400px) {
+    .contacts{
+        background-image: url("/images/shade.png"), url("/images/contact.jpg");
+        background-repeat: repeat, no-repeat;
+        background-size: 100%, cover;
+        background-position: center, center;
+        padding-top: 10%;
+    }
+    .contacts-container{
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        align-items: flex-start;
+        padding-bottom: 10%;
+    }
+    .contacts-mail{
+        width:100%;
 
+    }
+    .contacts-social{
+        width: 100%;
+        margin-bottom: 10%;
+    }
+    .contacts-button{
+        margin-bottom:5px;
+    }
+
+}
+
+@media only screen  and (max-width: 1250px) {
+    html {
+        font-size: 14px;
+    }
+    .navigation-bar-logo{
+        width:270px;
+    }
+    .second-slide-text{
+        padding:5%;
+    }
+    .third-slide-article{
+        padding:0 5%;
+    }
+    .sixth-slide-other{
+        width: auto;
+        margin: 0 25px 5%;
+    }
+
+    .fifth-slide-examples > div{
+        min-width:300px;
+    }
     .partners{
         flex-direction: column;
         justify-content: center;
@@ -848,86 +901,7 @@ footer{
         margin-bottom: 5%;
     }
     .copyrights{
-        width:80%;
-    }
-    .navigation-bar-logo{
-        margin-left: 0;
-    }
-}
-
-@media only screen and (max-width: 1300px) {
-
-    .orgs {
-        flex-direction: column;
-        margin-bottom: 0;
-    }
-    .orgs-element {
-        height: auto;
-    }
-    .orgs-element > span {
-        text-align: center;
-        margin-top: 10%;
-        margin-bottom: 5%;
-    }
-    .orgs-element > img {
-        display: block;
-        margin: 0 auto 5%;
-
-    }
-    .orgs-element > img:nth-child(2) {
-        margin: 0 auto 5%;
-    }
-    .contacts{
-        background-image: url("/images/shade.png"), url("/images/contact.jpg");
-        background-repeat: repeat, no-repeat;
-        background-size: 100%, cover;
-        background-position: center, center;
-        padding-top: 10%;
-    }
-    .contacts-container{
-        flex-direction: column;
-        justify-content: center;
-        align-content: center;
-        align-items: flex-start;
-        padding-bottom: 10%;
-    }
-    .contacts-mail{
-        width:100%;
-
-    }
-    .contacts-social{
-        width: 100%;
-        margin-bottom: 10%;
-    }
-    .contacts-button{
-        margin-bottom:5px;
-    }
-}
-
-@media only screen  and (max-width: 1250px) {
-    html {
-        font-size: 14px;
-    }
-    .navigation-bar-logo{
-        width:270px;
-    }
-    .second-slide-text{
-        padding:5%;
-    }
-    .third-slide-article{
-        padding:0 5%;
-    }
-    .sixth-slide-other{
-        width: auto;
-        margin: 0 25px 5%;
-    }
-    .seventh-slide-jury{
-        width:800px;
-        justify-content: center;
-        padding: 3% 0 5%;
-    }
-    .fifth-slide-examples > div{
-        min-width:300px;
+        padding:0 25px;
     }
 }
 
@@ -976,8 +950,25 @@ footer{
     .sixth-slide-prize {
         flex-direction: column;
     }
-    .codecopy img{
-        display: block;
+    .orgs {
+    flex-direction: column;
+    margin-bottom: 0;
+    }
+    .orgs-element {
+    height: auto;
+    }
+    .orgs-element > span {
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    }
+    .orgs-element > img {
+    display: block;
+    margin: 0 auto 5%;
+
+    }
+    .orgs-element > img:nth-child(2) {
+    margin: 0 auto 5%;
     }
     .third-slide-title{
         padding-top: 7%;
@@ -1002,28 +993,44 @@ footer{
     .seventh-slide-jury{
         width:500px;
     }
-}
-@media only screen and (max-width: 670px){
-    .copyrights{
-        width:95%;
-    }
     .copy{
-        font-size: 0.75rem;
+        font-size: 1rem;
         display: block;
     }
     .reserved{
-        font-size: 0.75rem;
+        font-size: 1rem;
         display: block;
     }
     .codecopy a {
-        font-size: 0.75rem;
+        font-size: 1rem;
         display: block;
         text-align: center;
     }
     .codecopy img {
-        height: 10px;
+        height: 16px;
         display: block;
     }
+    }
+@media only screen and (max-width: 670px){
+    .copyrights{
+        padding: 0 1%;
+    }
+    .copy{
+        font-size: 0.75rem;
+    }
+    .reserved{
+        font-size: 0.75rem;
+
+    }
+    .codecopy a {
+        font-size: 0.75rem;
+
+    }
+    .codecopy img {
+        height: 10px;
+
+    }
+
 }
 @media only screen  and (max-width: 660px) {
     .first-slide-buttons-layer{
