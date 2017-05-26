@@ -820,7 +820,9 @@ footer{
 }
 
 @media only screen and (max-width:1600px){
-    
+    .seventh-slide-jury{
+        max-width:250px;
+    }
 }
 
 @media only screen and (max-width: 1400px) {
