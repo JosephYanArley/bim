@@ -820,13 +820,14 @@ footer{
 }
 
 @media only screen and (max-width:1600px){
+    
+}
+
+@media only screen and (max-width: 1400px) {
     .seventh-slide-jury{
         width:800px;
         justify-content: center;
     }
-}
-
-@media only screen and (max-width: 1400px) {
     .partners{
         flex-direction: column;
         justify-content: center;
