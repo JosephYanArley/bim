@@ -942,6 +942,9 @@ footer{
     .second-slide-text{
         padding:5%;
     }
+    .fifth-slide-examples{
+        flex-direction: column;
+    }
 
 }
 
@@ -1082,12 +1085,11 @@ h1{
     }
     .fifth-slide-examples{
         padding-bottom: 10%;
-        flex-direction: column;
     }
     .fifth-slide-examples>div{
         min-width: 200px;
         height: 100px;
-        margin-top:17%;
+        padding-top:15%;                /*отступы!*/
     }
     .fifth-slide-examples>div>span{
         font-size:1rem;
