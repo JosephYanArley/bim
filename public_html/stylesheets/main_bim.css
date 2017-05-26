@@ -934,6 +934,9 @@ footer{
     .navigation-bar-button {
         margin: 0 auto 10px;
     }
+    .third-slide-post-element{
+        margin-bottom: 20px;
+    }
     .fourth-slide-scheme{
     flex-direction: column;
     align-items: center;
@@ -1118,9 +1121,7 @@ h1{
         font-size: 0.6rem;
     }
 
-    .third-slide-post-element{
-        margin-bottom: 20px;
-    }
+
     .sfs{
         width:200px;
     }
