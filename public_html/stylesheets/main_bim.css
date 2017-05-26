@@ -830,6 +830,9 @@ footer{
         width:800px;
         justify-content: center;
     }
+    .seventh-slide-jury>div{
+        max-width:300px;
+    }
     .partners{
         flex-direction: column;
         justify-content: center;
