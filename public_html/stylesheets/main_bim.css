@@ -416,7 +416,7 @@ section{
 
 .fifth-slide-examples>div{
     width:30%;
-    min-width:400px;
+    min-width:300px;
     height:240px;
 }
 .fifth-slide-examples>div>span{
@@ -604,7 +604,7 @@ section{
 }
 
 .seventh-slide-jury>div{
-    width: 300px;
+    width: 230px;
     height:270px;
     margin-top:30px;
 }
@@ -1083,7 +1083,7 @@ h1{
     .fifth-slide-examples>div{
         min-width: 200px;
         height: 100px;
-        margin-top:10%;
+        margin-top:17%;
     }
     .fifth-slide-examples>div>span{
         font-size:1rem;
