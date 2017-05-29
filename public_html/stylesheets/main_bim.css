@@ -788,7 +788,7 @@ footer{
     justify-content: space-between;
     align-items: center;
     max-width: 1250px;
-
+    padding:0 25px;
 }
 .copy{
     color: #3a4d60;
@@ -801,7 +801,7 @@ footer{
     font-size: 1.125rem;
 }
 .codecopy img{
-    vertical-align: middle;
+    padding-bottom:6px;
     margin: 0 auto;
 }
 .codecopy a{
