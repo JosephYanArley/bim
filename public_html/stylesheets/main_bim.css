@@ -1012,9 +1012,6 @@ footer{
     }
     }
 @media only screen and (max-width: 670px){
-    .copyrights{
-        padding: 0 1%;
-    }
     .copy{
         font-size: 0.75rem;
     }
