@@ -874,6 +874,9 @@ footer{
         margin-top:10%;
         margin-bottom: 5%;
     }
+    .codecopy img{
+    height:14px;
+    }
 }
 
 @media only screen and (max-width: 1080px){
