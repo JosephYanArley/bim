@@ -801,6 +801,7 @@ footer{
     font-size: 1.125rem;
 }
 .codecopy img{
+    height:15px;
     margin: 0 auto;
 }
 .codecopy a{
@@ -872,9 +873,6 @@ footer{
         text-align: center;
         margin-top:10%;
         margin-bottom: 5%;
-    }
-    .copyrights{
-        padding:0 25px;
     }
 }
 
@@ -1009,7 +1007,7 @@ footer{
         text-align: center;
     }
     .codecopy img {
-        height: 16px;
+        height: 13px;
         display: block;
     }
     }
